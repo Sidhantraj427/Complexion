@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+
+    <!-- -----------------------header section started-------------------------- -->
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="" alt=""></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+     </section>
+     <!-- -----------------------about us content------------------------ -->
+      <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+               <h1>largest producing engineers in the world </h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ex eum. Provident ab aspernatur rerum distinctio unde! Inventore in 
+                sed explicabo placeat. Non amet optio corrupti quas suscipit. Nobis labore sapiente aspernatur enim ipsam vitae fugiat nihil sequi
+                 in Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, harum beatae reiciendis labore ipsa voluptatibus molestias facere dignissimos magnam similique pariatur,
+                  unde hic consectetur nam itaque possimus, ducimus officia adipisci sit facilis deleniti odio fugiat aspernatur eveniet.
+                   Nam, quod eligendi.</p>
+                   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+               <img src="image/meeting4.jpg" alt="">
+            </div>
+        </div>
+      </section>
+
+     <!-- --------------------------headr section ended-------------------------- -->
+       
+               <!-- --------------------------------footer start---------------------------------------------------- -->
+                <section class="footer">
+                    <h4>About Us</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium id laborum natus autem esse. <br>
+                         Nobis totam illo nemo est soluta corrupti deleniti adipisci officia eum.</p>
+                         <div class="icons">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-linkedin"></i>
+                          
+                        </div>
+                        <p>Made with <i class="fa fa-heart-o"></i> Sidhant Raj</p>
+                </section>
+           <!-- -----------------javascript for toogle menu start----------------- -->
+     <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu()
+        {
+            
+            navLinks.style.right ="0";
+            
+        }
+        function hideMenu()
+        {
+            navLinks.style.right ="-200px";
+        }
+     </script>
+
+</body>
+</html>
